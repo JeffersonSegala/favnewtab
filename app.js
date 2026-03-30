@@ -116,7 +116,7 @@ function renderView(title, items, draggable = false) {
 
     const label = document.createElement("div");
     label.className = "label";
-    label.textContent = "Lorem ipsum";
+    label.textContent = item.title;
 
 
     el.appendChild(icon);
